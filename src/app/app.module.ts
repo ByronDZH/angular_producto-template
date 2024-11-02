@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { EncabezadoComponent } from './componentes/encabezado/encabezado.component';
 import { PieDeLaPaginaComponent } from './componentes/pie-de-la-pagina/pie-de-la-pagina.component';
 import { CuerpoDeLaPaginaComponent } from './componentes/cuerpo-de-la-pagina/cuerpo-de-la-pagina.component';
+import { AboutComponent } from './componentes/about/about.component';
+import { ProductosComponent } from './componentes/productos/productos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
     PieDeLaPaginaComponent,
-    CuerpoDeLaPaginaComponent
+    CuerpoDeLaPaginaComponent,
+    AboutComponent,
+    ProductosComponent
   ],
   imports: [
     BrowserModule,
